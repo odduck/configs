@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<!-- Submenus -->
+
+<!-- Games Menu -->
+<menu id="games-apps-menu" label="Games">
+    <item label="snes9x">
+        <action name="Execute">
+            <command>
+                snes9x-gtk
+            </command>
+        </action>
+    </item>
+    <item label="fceux">
+        <action name="Execute">
+            <command>
+                fceux
+            </command>
+        </action>
+    </item>
+    <item label="freeciv">
+        <action name="Execute">
+            <command>
+                freeciv-gtk2
+            </command>
+        </action>
+    </item>
+    <item label="cgoban">
+        <action name="Execute">
+            <command>
+                cgoban3
+            </command>
+        </action>
+    </item>
+    <item label="ggoban">
+        <action name="Execute">
+            <command>
+                ggoban
+            </command>
+        </action>
+    </item>
+</menu>
+
+<!-- Multimedia Apps Menu -->
+<menu id="multimedia-apps-menu" label="Multimedia">
+    <item label="ario">
+        <action name="Execute">
+            <command>
+                ario
+            </command>
+        </action>
+    </item>
+    <item label="vlc">
+        <action name="Execute">
+            <command>
+                vlc
+            </command>
+        </action>
+    </item>
+    <item label="gpodder">
+        <action name="Execute">
+            <command>
+                gpodder
+            </command>
+        </action>
+    </item>
+    <item label="f-spot">
+        <action name="Execute">
+            <command>
+                f-spot
+            </command>
+        </action>
+    </item>
+    <item label="gimp">
+        <action name="Execute">
+            <command>
+                gimp
+            </command>
+        </action>
+    </item>
+    <item label="xfburn">
+        <action name="Execute">
+            <command>
+                xfburn
+            </command>
+        </action>
+    </item>
+    <item label="rubyripper">
+        <action name="Execute">
+            <command>
+                rrip_gui
+            </command>
+        </action>
+    </item>
+    <item label="soundconverter">
+        <action name="Execute">
+           <command>
+                soundconverter
+           </command>
+        </action>
+    </item>
+</menu>
+
+<!-- Network Apps Menu -->
+<menu id="network-apps-menu" label="Network">
+    <item label="chromium">
+        <action name="Execute">
+            <command>
+                chromium
+            </command>
+        </action>
+    </item>
+    <item label="firefox">
+        <action name="Execute">
+            <command>
+                firefox
+            </command>
+            <startupnotify>
+                <enabled>
+                    yes
+                </enabled>
+                <wmclass>
+                    Firefox
+                </wmclass>
+            </startupnotify>
+        </action>
+    </item>
+    <item label="transmission">
+        <action name="Execute">
+            <command>
+                transmission-gtk
+            </command>
+        </action>
+    </item>
+    <item label="pidgin">
+        <action name="Execute">
+            <command>
+                pidgin
+            </command>
+            <startupnotify>
+                <enabled>
+                    yes
+                </enabled>
+            </startupnotify>
+        </action>
+    </item>
+    <item label="skype">
+        <action name="Execute">
+            <command>
+                skype
+            </command>
+        </action>
+    </item>
+    <item label="xchat">
+        <action name="Execute">
+            <command>
+                xchat
+            </command>
+            <startupnotify>
+                <enabled>
+                    yes
+                </enabled>
+            </startupnotify>
+        </action>
+    </item>
+    <item label="wicd">
+        <action name="Execute">
+            <command>
+                wicd-client -n
+            </command>
+        </action>
+    </item>
+    <item label="gftp">
+        <action name="Execute">
+            <command>
+                gftp
+            </command>
+        </action>
+    </item>
+</menu>
+
+<!-- Office Apps Menu -->
+<menu id="office-apps-menu" label="Office">
+    <item label="homebank">
+        <action name="Execute">
+            <command>
+                homebank
+            </command>
+        </action>
+    </item>
+    <item label="libreoffice">
+        <action name="Execute">
+            <command>
+                libreoffice
+            </command>
+        </action>
+    </item>
+    <item label="artha">
+        <action name="Execute">
+            <command>
+                artha
+            </command>
+        </action>
+    </item>
+    <item label="memorizer">
+        <action name="Execute">
+            <command>
+                memorizer
+            </command>
+        </action>
+    </item>
+</menu>
+
+
+<!-- System Settings Menu -->
+<menu id="system-apps-menu" label="System">
+    <item label="lxappearance">
+        <action name="Execute">
+            <command>
+                lxappearance
+            </command>
+        </action>
+    </item>
+    <item label="xscreensaver">
+        <action name="Execute">
+            <command>
+                xscreensaver-demo
+            </command>
+        </action>
+    </item>
+    <item label="obmenu">
+        <action name="Execute">
+            <command>
+                obmenu
+            </command>
+        </action>
+    </item>
+    <item label="nitrogen">
+        <action name="Execute">
+            <command>
+                 nitrogen
+            </command>
+        </action>
+    </item>
+    <item label="lxrandr">
+        <action name="Execute">
+            <command>
+                lxrandr
+            </command>
+        </action>
+    </item>
+    <separator/>
+    <item label="Reconfigure Openbox">
+        <action name="Reconfigure"/>
+    </item>
+</menu>
+
+<!-- Utilities Menu -->
+<menu id="utilities-apps-menu" label="Utilities">
+    <item label="gedit">
+        <action name="Execute">
+            <command>
+                gedit
+            </command>
+        </action>
+    </item>
+    <item label="qalculate">
+        <action name="Execute">
+            <command>
+                qalculate-gtk
+            </command>
+        </action>
+    </item>
+    <item label="xarchiver">
+        <action name="Execute">
+            <command>
+                xarchiver
+            </command>
+        </action>
+    </item>
+    <item label="catfish">
+        <action name="Execute">
+            <command>
+                catfish
+            </command>
+        </action>
+    </item>
+    <item label="power manager">
+        <action name="Execute">
+            <command>
+                xfce4-power-manager-settings
+            </command>
+        </action>
+    </item>
+    <item label="gparted">
+        <action name="Execute">
+            <command>
+                gksudo gparted
+            </command>
+        </action>
+    </item>
+    <item label="android sdk">
+        <action name="Execute">
+            <command>
+                ./opt/android-sdk/tools/android
+            </command>
+        </action>
+    </item>
+</menu>
+
+<!-- Exit options menus -->
+<menu id="exit-menu" label="Exit">
+    <item label="Lock">
+        <action name="Execute">
+            <command>
+                xscreensaver-command -lock
+            </command>
+        </action>
+    </item>
+    <item label="Logout">
+        <action name="Exit"/>
+    </item>
+    <item label="Suspend">
+        <action name="Execute">
+            <command>
+                sudo pm-suspend
+            </command>
+            <prompt>Are you sure you want to suspend?</prompt>
+        </action>
+    </item>
+    <item label="Reboot">
+        <action name="Execute">
+            <command>
+                sudo shutdown -r now
+            </command>
+            <prompt>Are you sure you want to reboot?</prompt>
+        </action>
+    </item>
+    <item label="Shut Down">
+        <action name="Execute">
+            <command>
+                sudo shutdown -h now
+            </command>
+            <prompt>Are you sure about that, Eric?</prompt>
+        </action>
+    </item>
+</menu>
+
+<!-- Main menu organization -->
+<menu id="root-menu" label="Openbox 3">
+    <item label="browser">
+        <action name="Execute">
+            <command>
+                firefox
+            </command>
+        </action>
+    </item>       
+    <item label="terminal">
+        <action name="Execute">
+            <command>
+                urxvt
+            </command>
+        </action>
+    </item>
+    <item label="file manager">
+        <action name="Execute">
+            <command>
+                thunar
+            </command>
+        </action>
+    </item>
+    <separator />
+    <menu id="games-apps-menu" />
+    <menu id="multimedia-apps-menu" />
+    <menu id="network-apps-menu" />
+    <menu id="office-apps-menu" />
+    <menu id="system-apps-menu" />
+    <menu id="utilities-apps-menu" />
+    <separator />
+    <menu id="exit-menu" />
+</menu>
+
+</openbox_menu>

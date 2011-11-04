@@ -1,0 +1,120 @@
+#------------------------------
+# file: ~/.ncmpcpp/config
+# author: Eric Slehofer eikitalar@gmail.com
+# 
+#------------------------------
+
+## Connection settings ##
+mpd_host = "galactica"
+#mpd_port = "6600"
+mpd_music_dir = "/mnt/data/audio/albums"
+mpd_connection_timeout = "5"
+mpd_crossfade_time = "5"
+mpd_communication_mode = "notifications"
+
+## General Preferences ##
+playlist_disable_highlight_delay = "3"
+message_delay_time = "3"
+seek_time = "2"
+incremental_seeking = "yes"
+use_console_editor = "yes"
+external_editor = "nano"
+ignore_leading_the = "yes"
+empty_tag_marker = "???"
+playlist_shorten_total_times = "yes"
+default_space_mode = "add"
+ask_before_clearing_main_playlist = "yes"
+#startup_screen = "5"
+display_volume_level = "yes"
+display_bitrate = "yes"
+mouse_support = "no"
+allow_physical_files_deletion = "yes"
+allow_physical_directories_deletion = "yes"
+media_library_display_date = "yes"
+media_library_display_empty_tag = "yes"
+media_library_disable_two_column_mode = "yes"
+enable_window_title = "yes"
+cyclic_scrolling = "yes"
+follow_now_playing_lyrics = "no"
+display_screens_numbers_on_start = "yes"
+autocenter_mode = "yes"
+
+## Search Preferences ##
+default_place_to_search_in = "database"
+block_search_constraints_change_if_items_found = "yes"
+default_find_mode = "wrapped"
+regular_expressions = "basic"
+
+## Formats & Appearance ##
+# %l - length
+# %f - short filename
+# %F - full filename
+# %a - artist
+# %t - title
+# %b - album
+# %y - year
+# %n - track number
+# %g - genre
+# %c - composer
+# %p - performer
+# %d - disc
+# %C - comment
+# %r - begin right align
+#
+# you can also put them in { } and then it will be displayed
+# only if all requested values are available and/or define alternate
+# value with { }|{ } eg. {%a - %t}|{%f}
+#
+# text can also have different color than the main window has,
+# eg. if you want length to be green, write $3%l$9
+#
+# available values:
+#
+# - 0 - default window color
+# - 1 - black
+# - 2 - red
+# - 3 - green
+# - 4 - yellow
+# - 5 - blue
+# - 6 - magenta
+# - 7 - cyan
+# - 8 - white
+# - 9 - end of current color
+
+song_columns_list_format = "(25)[cyan]{a} (40)[cyan]{t|f} (5f)[cyan]{l}"
+song_list_format = "{$7%a - }{%t$9}|{$8%f$9}$R{$8%l$9}"
+song_status_format = "{{%a{ \"%b\"{ (%y)}} - }{%t}}|{%f}"
+song_window_title_format = "{%a - }{%t}|{%f}"
+alternative_header_first_line_format = "{$8---|$5%t$9|---$9}"
+alternative_header_second_line_format = "{$5%a - %b$9} {$5(%y)$9}"
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+search_engine_display_mode = "columns"
+progressbar_look = "=>"
+user_interface = "alternative" (classic/alternative)
+media_library_left_column = "a"
+header_visibility = "yes"
+statusbar_visibility = "yes"
+titles_visibility = "no"
+header_text_scrolling = "yes"
+fancy_scrolling = "no"
+display_remaining_time = "yes"
+enable_window_title = "yes"
+centered_cursor = "yes"
+
+
+## Color Settings ##
+colors_enabled = "yes"
+header_window_color = "blue"
+state_line_color = "blue"
+state_flags_color = "blue"
+main_window_color = "cyan"
+color1 = "white"
+color2 = "white"
+main_window_highlight_color = "blue"
+active_column_color = "red"
+progressbar_color = "blue"
+statusbar_color = "blue" 
+empty_tag_color = "magenta"
+active_window_border = "red"
+alternative_ui_separator_color = "blue"
